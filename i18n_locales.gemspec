@@ -10,4 +10,8 @@ Gem::Specification.new name do |s|
   s.files = `git ls-files lib cache `.split("\n")
   s.license = 'MIT'
   s.require_paths = ['lib']
+
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'rspec-core'
+  s.add_development_dependency 'yard'
 end
