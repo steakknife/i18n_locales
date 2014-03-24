@@ -15,3 +15,4 @@ Gem::Specification.new name do |s|
   s.add_development_dependency 'rspec-core'
   s.add_development_dependency 'yard'
 end
+.tap {|gem| pk = File.expand_path(File.join('~/.keys', 'gem-private_key.pem')); gem.signing_key = pk if File.exist? pk; gem.cert_chain = ['gem-public_cert.pem']} # pressed firmly by waxseal
