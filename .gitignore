@@ -1,0 +1,12 @@
+# gem 
+Gemfile.lock
+*.gem
+
+# bundler
+/vendor/cache
+/vendor/bundle
+/.bundle
+
+# vim
+.*.swp
+
